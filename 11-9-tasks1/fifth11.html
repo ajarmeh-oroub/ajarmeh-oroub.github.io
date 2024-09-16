@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Sofadi+One&display=swap');
+        .container{
+            background-color: rgb(80, 80, 149);
+            width: 600px;
+            height: 900px;
+            padding: 10px;
+            font-family: "Sofadi One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+           color:white;
+           
+           
+        }
+        .form-bd{
+            background-color: rgb(38, 38, 70);
+            width: 450px;
+            height: 700px;
+            padding: 20px;
+            margin-top: 50px;
+            margin-right: 10px;
+            margin-left: 50px;
+            margin-bottom: auto;
+           
+           
+        }
+        .title{
+            text-align: center;
+           
+        }
+        textarea , .entry{
+            width: 100%;
+            border: rgb(18, 129, 167) solid 1px ;
+            border-radius: 2px;
+        }
+      
+      .btn{
+        background-color:rgb(55, 175, 101);
+        height: fit-content;
+        color: white;
+      }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="title">
+<h2>Amman Coding Academy Survey Form</h2>
+<h4>thank You for taking the time to help</h4>
+</div>
+        <div class="form-bd">
+<form>
+    <label>Name</label>
+    <br>
+    <input type="text" class="entry" placeholder="Enter Your Name">
+    <br><br>
+    <label>Email</label>
+    <br>
+    <input type="text" class="entry" placeholder="Enter Your Name">
+    <br><br>
+    <label>Age <sub>(optional)</sub></label>
+    <br>
+    <input type="text" class="entry" placeholder="Enter Your Age">
+    <br> <br>
+<label>How did you like my survey</label>
+<br>
+<select class="entry"><option disabled selected> How did you like my survey ?</option></select>
+<br> <br>
+<label>Would you recommend my pen to a friend </label>
+<br>
+
+<input type="radio" name="definitely"  value="Definitely"  checked>Definitely
+
+<br>
+
+<input type="radio" name="maybe" >Maybe
+
+<br>
+<input type="radio" name="not">Not Sure
+<br> <br>
+<label>What is your favorite feature of codepen</label>
+<br>
+<select class="entry"><option  disabled selected>Select an option</option></select>
+<br> <br> 
+<label>What would you like to see improved in my survey? <sub>check all that apply</sub></label>
+<br>
+<input type="checkbox" name="CSS" >
+<label for="CSS">CSS should be more complex</label>
+<br>
+<input type="checkbox" name="use" >
+<label for="use">Use more JavaScript</label>
+<br>
+<input type="checkbox" name="no" >
+<label for="no">No changes required</label>
+<br> <br>
+<label>Any comments or suggestions</label>
+<br>
+<textarea placeholder="Enter your comment here" rows="5"></textarea>
+<br><br>
+<button class="btn entry" type="submit">Submit</button>
+</form>
+        </div>
+    </div>
+</body>
+</html>
